@@ -4,6 +4,8 @@ import com.fag.lucasmartins.arquitetura_software.core.domain.exceptions.DomainEx
 
 public class ProdutoBO {
 
+    private Integer id;
+
     private String nome;
 
     private Integer estoque;
@@ -24,6 +26,14 @@ public class ProdutoBO {
         if (estoque != null && estoque >= 50) {
             this.precoFinal = preco - (preco * 0.10);
         }
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getNome() {

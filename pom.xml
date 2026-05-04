@@ -10,7 +10,7 @@
 	<groupId>com.fag.lucasmartins</groupId>
 	<artifactId>t03n-arquitetura-software</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>t02n-arquitetura-software</name>
+	<name>t03n-arquitetura-software</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -89,7 +89,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
+	
 	<build>
 		<plugins>
 			<plugin>
